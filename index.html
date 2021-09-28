@@ -12,26 +12,30 @@
         'use strict';
 
         const ran1 = Math.random();
-        document.write(`${Math.floor(ran1*45)+1}, `);
+        let result1 = (` ${Math.floor(ran1*45)+1}`);
 
         const ran2 = Math.random();
-        document.write(`${Math.floor(ran2*45)+1}, `);
+        let result2 = (` ${Math.floor(ran2*45)+1}`);
 
         const ran3 = Math.random();
-        document.write(`${Math.floor(ran3*45)+1}, `);
+        let result3 = (` ${Math.floor(ran3*45)+1}`);
 
         const ran4 = Math.random();
-        document.write(`${Math.floor(ran4*45)+1}, `);
+        let result4 = (` ${Math.floor(ran4*45)+1}`);
 
         const ran5 = Math.random();
-        document.write(`${Math.floor(ran5*45)+1}, `);
+        let result5 = (` ${Math.floor(ran5*45)+1}`);
 
         const ran6 = Math.random();
-        document.write(`${Math.floor(ran6*45)+1}, `);
+        let result6 = (` ${Math.floor(ran6*45)+1}`);
 
         const ran7 = Math.random();
-        document.write(`+${Math.floor(ran7*45)+1}`);
+        let result7 = (` +${Math.floor(ran7*45)+1}`);
 
+        let arr1 = [result1, result2, result3, result4, result5, result6]
+        arr1.sort();
+        document.write(arr1);
+        document.write(result7);
     </script>
 </body>
 </html>
